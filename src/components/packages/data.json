@@ -1,0 +1,590 @@
+[
+    {
+        "type": "Annually",
+        "packages": [
+            {
+                "name": "Starter Plan",
+                "note": "Get started with the basics and build your brand.",
+                "price": "$350/month",
+                "when": "(When Billed Annually)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 15 Posts Per Month",
+                            "10 Graphic Social Posts",
+                            "05 Videos/Reels",
+                            "Stories"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "TikTok / LinkedIn"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "Facebook & Instagram Paid Ads",
+                            "Unlimited Campaigns Per Month",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring & Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "01 Dedicated Social Media Copywriter",
+                            "01 Dedicated Graphic Designer",
+                            "01 Dedicated Video Editor",
+                            "01 Dedicated Ads Expert",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "Monthly Statistical Reporting"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "note": "Maximize your reach with our most popular plan.",
+                "price": "$650/month",
+                "when": "(When Billed Annually)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 25 Posts Per Month",
+                            "18 Graphic Social Posts",
+                            "07 Videos/Reels",
+                            "Stories"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "YouTube",
+                            "Twitter (X)",
+                            "TikTok / LinkedIn"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "Facebook, Instagram, & TikTok / LinkedIn Paid Ads",
+                            "Unlimited Campaigns Per Month",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring & Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "02 Dedicated Social Media Copywriters",
+                            "02 Dedicated Graphic Designers",
+                            "02 Dedicated Video Editors",
+                            "02 Dedicated Ads Experts",
+                            "01 Message/Chat Expert",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "TikTok / LinkedIn Business Manager Setup",
+                            "TikTok / LinkedIn Ads Manager Setup",
+                            "TikTok / LinkedIn Pixel Integration",
+                            "Monthly Statistical Reporting",
+                            "Weekly Ads/Campaign Report"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Elite Plan",
+                "note": "Unlock premium features for ultimate growth.",
+                "price": "$950/month",
+                "when": "(When Billed Annually)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 35 Posts Per Month",
+                            "23 Graphic Social Posts",
+                            "12 Videos/Reels",
+                            "Stories",
+                            "Highlights"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "YouTube",
+                            "Twitter (X)",
+                            "LinkedIn",
+                            "TikTok",
+                            "Pinterest",
+                            "Snapchat"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "All Social Ad Platforms",
+                            "Unlimited Campaigns Per Month",
+                            "All Ad Objectives Supported",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring",
+                            "Daily Campaign Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "03 Dedicated Social Media Copywriters",
+                            "03 Dedicated Graphic Designers",
+                            "03 Dedicated Video Editors",
+                            "03 Dedicated Ads Experts",
+                            "02 Message/Chat Experts",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "LinkedIn Business Manager Setup",
+                            "LinkedIn Ads Manager Setup",
+                            "LinkedIn Pixel Integration",
+                            "TikTok Business Manager Setup",
+                            "TikTok Ads Manager Setup",
+                            "TikTok Pixel Integration",
+                            "Monthly Statistical Reporting",
+                            "Weekly Ads/Campaign Report"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Quarterly",
+        "packages": [
+            {
+                "name": "Starter Plan",
+                "note": "Get started with the basics and build your brand.",
+                "price": "$400/month",
+                "when": "(When Billed Quarterly)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 15 Posts Per Month",
+                            "10 Graphic Social Posts",
+                            "05 Videos/Reels",
+                            "Stories"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "TikTok / LinkedIn"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "Facebook & Instagram Paid Ads",
+                            "Unlimited Campaigns Per Month",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring & Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "01 Dedicated Social Media Copywriter",
+                            "01 Dedicated Graphic Designer",
+                            "01 Dedicated Video Editor",
+                            "01 Dedicated Ads Expert",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "Monthly Statistical Reporting"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "note": "Maximize your reach with our most popular plan.",
+                "price": "$700/month",
+                "when": "(When Billed Quarterly)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 25 Posts Per Month",
+                            "18 Graphic Social Posts",
+                            "07 Videos/Reels",
+                            "Stories"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "YouTube",
+                            "Twitter (X)",
+                            "TikTok / LinkedIn"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "Facebook, Instagram, & TikTok / LinkedIn Paid Ads",
+                            "Unlimited Campaigns Per Month",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring & Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "02 Dedicated Social Media Copywriters",
+                            "02 Dedicated Graphic Designers",
+                            "02 Dedicated Video Editors",
+                            "02 Dedicated Ads Experts",
+                            "01 Message/Chat Expert",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "TikTok / LinkedIn Business Manager Setup",
+                            "TikTok / LinkedIn Ads Manager Setup",
+                            "TikTok / LinkedIn Pixel Integration",
+                            "Monthly Statistical Reporting",
+                            "Weekly Ads/Campaign Report"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Elite Plan",
+                "note": "Unlock premium features for ultimate growth.",
+                "price": "$1000/month",
+                "when": "(When Billed Quarterly)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 35 Posts Per Month",
+                            "23 Graphic Social Posts",
+                            "12 Videos/Reels",
+                            "Stories",
+                            "Highlights"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "YouTube",
+                            "Twitter (X)",
+                            "LinkedIn",
+                            "TikTok",
+                            "Pinterest",
+                            "Snapchat"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "All Social Ad Platforms",
+                            "Unlimited Campaigns Per Month",
+                            "All Ad Objectives Supported",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring",
+                            "Daily Campaign Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "03 Dedicated Social Media Copywriters",
+                            "03 Dedicated Graphic Designers",
+                            "03 Dedicated Video Editors",
+                            "03 Dedicated Ads Experts",
+                            "02 Message/Chat Experts",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "LinkedIn Business Manager Setup",
+                            "LinkedIn Ads Manager Setup",
+                            "LinkedIn Pixel Integration",
+                            "TikTok Business Manager Setup",
+                            "TikTok Ads Manager Setup",
+                            "TikTok Pixel Integration",
+                            "Monthly Statistical Reporting",
+                            "Weekly Ads/Campaign Report"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Monthly",
+        "packages": [
+            {
+                "name": "Starter Plan",
+                "note": "Get started with the basics and build your brand.",
+                "price": "$600/month",
+                "when": "(When Billed Monthly)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 15 Posts Per Month",
+                            "10 Graphic Social Posts",
+                            "05 Videos/Reels",
+                            "Stories"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "TikTok / LinkedIn"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "Facebook & Instagram Paid Ads",
+                            "Unlimited Campaigns Per Month",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring & Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "01 Dedicated Social Media Copywriter",
+                            "01 Dedicated Graphic Designer",
+                            "01 Dedicated Video Editor",
+                            "01 Dedicated Ads Expert",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "Monthly Statistical Reporting"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "note": "Maximize your reach with our most popular plan.",
+                "price": "$900/month",
+                "when": "(When Billed Monthly)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 25 Posts Per Month",
+                            "18 Graphic Social Posts",
+                            "07 Videos/Reels",
+                            "Stories"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "YouTube",
+                            "Twitter (X)",
+                            "TikTok / LinkedIn"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "Facebook, Instagram, & TikTok / LinkedIn Paid Ads",
+                            "Unlimited Campaigns Per Month",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring & Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "02 Dedicated Social Media Copywriters",
+                            "02 Dedicated Graphic Designers",
+                            "02 Dedicated Video Editors",
+                            "02 Dedicated Ads Experts",
+                            "01 Message/Chat Expert",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "TikTok / LinkedIn Business Manager Setup",
+                            "TikTok / LinkedIn Ads Manager Setup",
+                            "TikTok / LinkedIn Pixel Integration",
+                            "Monthly Statistical Reporting",
+                            "Weekly Ads/Campaign Report"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Elite Plan",
+                "note": "Unlock premium features for ultimate growth.",
+                "price": "$1200/month",
+                "when": "(When Billed Monthly)",
+                "list": [
+                    {
+                        "title": "Social Media Posts",
+                        "inlcude": [
+                            "Total 35 Posts Per Month",
+                            "23 Graphic Social Posts",
+                            "12 Videos/Reels",
+                            "Stories",
+                            "Highlights"
+                        ]
+                    },
+                    {
+                        "title": "Social Platforms Supported",
+                        "inlcude": [
+                            "Facebook",
+                            "Instagram",
+                            "YouTube",
+                            "Twitter (X)",
+                            "LinkedIn",
+                            "TikTok",
+                            "Pinterest",
+                            "Snapchat"
+                        ]
+                    },
+                    {
+                        "title": "Social Ads Management",
+                        "inlcude": [
+                            "All Social Ad Platforms",
+                            "Unlimited Campaigns Per Month",
+                            "All Ad Objectives Supported",
+                            "Unlimited Ad sets Per Month",
+                            "Detailed Campaign Monitoring",
+                            "Daily Campaign Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Total Designated Team Members",
+                        "inlcude": [
+                            "03 Dedicated Social Media Copywriters",
+                            "03 Dedicated Graphic Designers",
+                            "03 Dedicated Video Editors",
+                            "03 Dedicated Ads Experts",
+                            "02 Message/Chat Experts",
+                            "01 Dedicated Project Manager"
+                        ]
+                    },
+                    {
+                        "title": "Social Media Management",
+                        "inlcude": [
+                            "Monthly Social Posts Scheduling Social Community Management",
+                            "(Inbox Messages + Comment Responses)",
+                            "Social Page Optimization (Cover Photo, About Section, Display Picture and Interlinking)",
+                            "Meta Business Manager Setup",
+                            "Meta Ads Manager Setup",
+                            "Meta Pixel Integration",
+                            "LinkedIn Business Manager Setup",
+                            "LinkedIn Ads Manager Setup",
+                            "LinkedIn Pixel Integration",
+                            "TikTok Business Manager Setup",
+                            "TikTok Ads Manager Setup",
+                            "TikTok Pixel Integration",
+                            "Monthly Statistical Reporting",
+                            "Weekly Ads/Campaign Report"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

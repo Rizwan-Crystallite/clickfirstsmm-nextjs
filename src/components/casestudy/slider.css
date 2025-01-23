@@ -1,0 +1,3 @@
+.casestudy_slider .slides:not(.is-snapped) {
+    filter: grayscale(1);
+}

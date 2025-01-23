@@ -1,0 +1,34 @@
+.influencers_slider .embla-thumbs__slide--selected h4 {
+    transform: rotate(-90deg);
+    font-size: 18px;
+}
+
+.influencers_slider .embla-thumbs__slide--selected.slide-0 h4 {
+    bottom: 106px;
+    left: -63px;
+}
+
+.influencers_slider .embla-thumbs__slide--selected.slide-1 h4 {
+    bottom: 110px;
+    left: -67px;
+}
+
+.influencers_slider .embla-thumbs__slide--selected.slide-2 h4 {
+    bottom: 104px;
+    left: -62px;
+}
+
+.influencers_slider .embla-thumbs__slide--selected.slide-3 h4 {
+    bottom: 120px;
+    left: -77px;
+}
+
+.influencers_slider .embla-thumbs__slide--selected.slide-4 h4 {
+    bottom: 121px;
+    left: -78px;
+}
+
+.influencers_slider .embla-thumbs__slide--selected.slide-5 h4 {
+    bottom: 132px;
+    left: -108px;
+}
