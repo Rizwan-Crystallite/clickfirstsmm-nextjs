@@ -138,7 +138,7 @@ export default function Creations({ wrapperCss = "py-[100px]" }) {
                 <AutoScrollSlider>
                     {
                         slides1.map((e, i) => (
-                            <div key={i} className="grow-0 shrink-0 pl-4 basis-[300]">
+                            <div key={i} className="grow-0 shrink-0 pl-4 basis-[300px]">
                                 <Image src={e} alt="Click First SMM" />
                             </div>
                         ))
@@ -147,7 +147,7 @@ export default function Creations({ wrapperCss = "py-[100px]" }) {
                 <AutoScrollSlider direction="right" wrapperCss="my-10">
                     {
                         slides2.map((e, i) => (
-                            <div key={i} className="grow-0 shrink-0 pl-4 basis-[300]">
+                            <div key={i} className="grow-0 shrink-0 pl-4 basis-[300px]">
                                 <Image src={e} alt="Click First SMM" />
                             </div>
                         ))
@@ -156,7 +156,7 @@ export default function Creations({ wrapperCss = "py-[100px]" }) {
                 <AutoScrollSlider>
                     {
                         slides3.map((e, i) => (
-                            <div key={i} className="grow-0 shrink-0 pl-4 basis-[300]">
+                            <div key={i} className="grow-0 shrink-0 pl-4 basis-[300px]">
                                 <Image src={e} alt="Click First SMM" />
                             </div>
                         ))
