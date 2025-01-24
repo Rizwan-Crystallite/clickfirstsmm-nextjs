@@ -638,7 +638,7 @@ const Navigation = () => {
           ["Home", "/"],
           ["Services"],
           ["Influencer Marketing", "/influencer-marketing"],
-          ["YouTube monetization", "/youTube-monetization"],
+          ["YouTube monetization", "/youtube-monetization"],
           ["About", "/about-us"],
           ["Contact Us", "/contact-us"],
         ].map(([text, link], i) => {
