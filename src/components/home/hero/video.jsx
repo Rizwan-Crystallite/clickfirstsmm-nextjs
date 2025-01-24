@@ -27,9 +27,9 @@ export default function Video() {
 
     if (!isLargeScreen) return (
         <>
-            <Image src={left} alt="Click First SMM" className="absolute top-[100px] left-0 -z-10 w-[200px] opacity-30 animate-bounce-slow" />
-            <Image src={clouds} priority={true} alt="Click First SMM" className="absolute -bottom-[100px] left-0 right-0 -z-10 mx-auto opacity-30 animate-bounce-slow" />
-            <Image src={right} alt="Click First SMM" className="absolute top-[100px] right-0 -z-10 w-[200px] opacity-30 animate-bounce-slow" />
+            <Image src={left} priority alt="Click First SMM" className="absolute top-[100px] left-0 -z-10 w-[200px] opacity-30 animate-bounce-slow" />
+            <Image src={clouds} priority alt="Click First SMM" className="absolute -bottom-[100px] left-0 right-0 -z-10 mx-auto opacity-30 animate-bounce-slow" />
+            <Image src={right} priority alt="Click First SMM" className="absolute top-[100px] right-0 -z-10 w-[200px] opacity-30 animate-bounce-slow" />
         </>
     )
 

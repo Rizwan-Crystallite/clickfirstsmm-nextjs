@@ -11,7 +11,7 @@ export default function Awards() {
     return (
         <section>
             <div className="py-[100px] relative z-10 overflow-hidden">
-                <Image src={left} alt="Click First SMM" className="absolute -left-[20px] top-[50px] xl:top-[100px] animate-awards max-w-[100px] sm:max-w-[150px] lg:max-w-[200px] 2xl:max-w-full" />
+                <Image src={left} alt="Click First SMM" priority className="absolute -left-[20px] top-[50px] xl:top-[100px] animate-awards max-w-[100px] sm:max-w-[150px] lg:max-w-[200px] 2xl:max-w-full" />
                 <div className="container">
                     <div className="text-center mb-[50px] z-20 relative">
                         <h2 className="text-[28px] sm:text-[40px] lg:text-[50px] font-semibold leading-tight mb-5">
@@ -24,7 +24,7 @@ export default function Awards() {
                     <div className="max-w-[1000px] 2xl:max-w-[1200px] mx-auto bg-primary rounded-3xl px-5 lg:p-5 grid grid-cols-1 lg:grid-cols-3 text-center text-white divide-y lg:divide-x lg:divide-y-0 z-20 relative">
                         <div className="py-5">
                             <div className="h-[120px] flex items-center justify-center">
-                                <Image src={one} alt="Click First SMM" className="inline-block" />
+                                <Image src={one} priority alt="Click First SMM" className="inline-block" />
                             </div>
                             <h3 className="text-[25px] lg:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
                                 Partnerships
@@ -35,7 +35,7 @@ export default function Awards() {
                         </div>
                         <div className="py-5">
                             <div className="h-[120px] flex items-center justify-center">
-                                <Image src={two} alt="Click First SMM" className="inline-block" />
+                                <Image src={two} priority alt="Click First SMM" className="inline-block" />
                             </div>
                             <h3 className="text-[25px] lg:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
                                 Awards
@@ -46,7 +46,7 @@ export default function Awards() {
                         </div>
                         <div className="py-5">
                             <div className="h-[120px] flex items-center justify-center">
-                                <Image src={three} alt="Click First SMM" className="inline-block" />
+                                <Image src={three} priority alt="Click First SMM" className="inline-block" />
                             </div>
                             <h3 className="text-[25px] lg:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
                                 Recognition
@@ -57,7 +57,7 @@ export default function Awards() {
                         </div>
                     </div>
                 </div>
-                <Image src={right} alt="Click First SMM" className="absolute -right-[20px] z-20 bottom-0 sm:bottom-[80px] animate-awards max-w-[200px] 2xl:max-w-full block lg:hidden xl:block" />
+                <Image src={right} priority alt="Click First SMM" className="absolute -right-[20px] z-20 bottom-0 sm:bottom-[80px] animate-awards max-w-[200px] 2xl:max-w-full block lg:hidden xl:block" />
             </div>
         </section>
     )

@@ -10,7 +10,7 @@ export default function Hero() {
     return (
         <section>
             <div className="relative z-10 bg-primary pt-[150px] pb-[50px] lg:pb-[100px]">
-                <Image src={bg} alt="Click First SMM" fill placeholder="blur" sizes="100vw" className="object-cover -z-10" />
+                <Image src={bg} alt="Click First SMM" priority fill sizes="100vw" className="object-cover -z-10" />
                 <div className="container">
                     <div className="lg:flex items-center gap-x-5 xl:gap-x-10">
                         <div className="text-white md:max-w-[550px] xl:max-w-[640px]">
@@ -29,7 +29,7 @@ export default function Hero() {
                             </div>
                         </div>
                         <div>
-                            <Image src={right} alt="Click First SMM" className="animate-pulse max-w-[300px] sm:max-w-[400px] mx-auto lg:max-w-full mt-10 lg:mt-0" />
+                            <Image src={right} priority alt="Click First SMM" className="animate-pulse max-w-[300px] sm:max-w-[400px] mx-auto lg:max-w-full mt-10 lg:mt-0" />
                         </div>
                     </div>
                 </div>

@@ -36,7 +36,7 @@ export default function Hero() {
                         <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
                         <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
                     </div>
-                    <Image src={bg} alt="Click First SMM" priority placeholder="blur" className="mx-auto -z-10 max-w-[90%] 2xl:max-w-full" />
+                    <Image src={bg} alt="Click First SMM" priority className="mx-auto -z-10 max-w-[90%] 2xl:max-w-full" />
                 </div>
                 {isLargeScreen &&
                     <>

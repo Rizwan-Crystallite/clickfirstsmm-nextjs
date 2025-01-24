@@ -11,7 +11,7 @@ export default function Hero() {
     return (
         <section>
             <div className="relative z-10 bg-primary mb-[30px] sm:mb-[50px] xl:mb-[80px] 2xl:mb-[100px] overflow-x-clip">
-                <Image src={left} alt="Click First SMM" className="absolute top-[150px] opacity-50 sm:opacity-100 left-[-100px] animate-awards" />
+                <Image src={left} alt="Click First SMM" priority className="absolute top-[150px] opacity-50 sm:opacity-100 left-[-100px] animate-awards" />
                 <div className="container relative z-10 bottom-[-100px] sm:bottom-[-150px] xl:bottom-[-180px] 2xl:bottom-[-200px] pb-[50px] ">
                     <div className="text-center text-white max-w-[800px] lg:max-w-[1050px] mx-auto mb-7">
                         <p className="text-[18px] sm:text-[20px] lg:text-[25px] font-semibold text-secondary leading-tight mb-3">
@@ -32,7 +32,7 @@ export default function Hero() {
                 <div className="relative z-10 bottom-[-80px] sm:bottom-[-130px] lg:bottom-[-150px] xl:bottom-[-180px] 2xl:bottom-[-220px]">
                     <Image src={bottom} priority alt="Click First SMM" className="mx-auto animate-pulse" />
                 </div>
-                <Image src={right} alt="Click First SMM" className="absolute top-[150px] opacity-50 sm:opacity-100 right-[-100px] animate-awards" />
+                <Image src={right} alt="Click First SMM" priority className="absolute top-[150px] opacity-50 sm:opacity-100 right-[-100px] animate-awards" />
             </div>
         </section>
     )

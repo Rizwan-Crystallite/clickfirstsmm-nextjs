@@ -16,9 +16,9 @@ export default function Hero() {
     return (
         <section>
             <div className="relative z-10 bg-primary pt-[70px] lg:pt-[150px] mb-[100px]">
-                <Image src={bg} alt="Click First SMM" fill placeholder="blur" sizes="100vw" className="object-cover -z-10" />
+                <Image src={bg} alt="Click First SMM" priority fill sizes="100vw" className="object-cover -z-10" />
                 <div className="container relative -bottom-[100px] z-10">
-                    <Image src={left} alt="Click First SMM" className="absolute left-0 -z-20 top-0 animate-bounce-slow opacity-25 xl:opacity-100" />
+                    <Image src={left} priority alt="Click First SMM" className="absolute left-0 -z-20 top-0 animate-bounce-slow opacity-25 xl:opacity-100" />
                     <div className="text-center text-white max-w-[600px] lg:max-w-[750px] mx-auto mb-7">
                         <p className="text-[18px] sm:text-[20px] lg:text-[25px] font-semibold text-secondary leading-tight mb-3">
                             Social Media Management
@@ -34,7 +34,7 @@ export default function Hero() {
                         <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
                         <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
                     </div>
-                    <Image src={right} alt="Click First SMM" className="absolute right-0 -z-20 top-0 animate-bounce-slow opacity-25 xl:opacity-100" />
+                    <Image src={right} priority alt="Click First SMM" className="absolute right-0 -z-20 top-0 animate-bounce-slow opacity-25 xl:opacity-100" />
                 </div>
                 <div className="relative -bottom-[150px]">
                     <AutoScrollSlider>
