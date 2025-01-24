@@ -618,6 +618,7 @@ export default function MobileNav() {
                           <Link
                             href={link}
                             className="group flex items-center gap-x-3"
+                            onClick={() => setIsOpen(false)}
                           >
                             {renderSVG(svg)}
                             <div>
