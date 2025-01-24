@@ -144,7 +144,7 @@ export default function Creations({ wrapperCss = "py-[100px]" }) {
                         ))
                     }
                 </AutoScrollSlider>
-                <AutoScrollSlider direction="right" wrapperCss="my-10">
+                <AutoScrollSlider direction="backward" wrapperCss="my-10">
                     {
                         slides2.map((e, i) => (
                             <div key={i} className="grow-0 shrink-0 pl-4 basis-[300px]">

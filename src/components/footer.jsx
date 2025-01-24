@@ -69,7 +69,7 @@ export default function Footer() {
                                         ["YouTube Optimization", "/youtube-optimization"],
                                         ["Search Engine Optimization", "/search-engine-optimization"],
                                         ["Email Marketing", "/email-marketing"],
-                                        ["Influencer Marketing", "/"],
+                                        ["Influencer Marketing", "/influencer-marketing"],
                                         ["YouTube Monetization", "/youtube-monetization"],
                                         ["Google Ads (PPC)", "/google-ads"]
                                     ].map(([text, link], i) => (

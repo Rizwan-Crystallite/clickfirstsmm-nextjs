@@ -36,11 +36,16 @@ export const theme = {
       awards: {
         "0%, 100%": { transform: "translateX(20px)" },
         "50%": { transform: "translateY(-20px)" },
+      },
+      rotate: {
+        "0%": { transform: "rotate(0deg)" },
+        "100%": { transform: "rotate(360deg)" },
       }
     },
     animation: {
       "bounce-slow": "bounce 5s linear infinite",
       awards: "awards 3s ease-in-out infinite",
+      rotate: "rotate 3s linear infinite",
     },
     listStyleImage: {
       "li-dot": 'url("/li_dot.png")',
