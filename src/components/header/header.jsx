@@ -23,11 +23,10 @@ const Header = () => {
   return (
     <header>
       <div
-        className={`fixed top-0 right-0 w-full z-50 py-6 ${
-          isSticky
-            ? "bg-gradient-to-b from-[#3868fc] to-[#2948ff] animate-slideFromTop"
-            : ""
-        }`}
+        className={`fixed top-0 right-0 w-full z-50 py-6 ${isSticky
+          ? "bg-gradient-to-b from-[#3868fc] to-[#2948ff] animate-slideFromTop"
+          : ""
+          }`}
       >
         <div className="container">
           <div className="grid lg:grid-cols-12 items-center grid-cols-2 gap-x-10">
@@ -35,10 +34,10 @@ const Header = () => {
               <Link
                 href={"/"}
                 aria-label="Logo Links"
-                className="mx-auto w-[100px] h-auto"
+                className="w-[100px] h-auto"
               >
                 <svg
-                className="md:w-[250px] mx-auto"
+                  className="md:w-[250px]"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 314.364 55"
                 >
