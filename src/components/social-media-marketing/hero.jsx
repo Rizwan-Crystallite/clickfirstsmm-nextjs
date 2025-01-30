@@ -29,10 +29,10 @@ export default function Hero() {
         <section>
             <div className="bg-primary pt-[150px] text-white relative z-10 overflow-hidden">
                 <div className="container relative z-10">
-                    <p className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal lg:absolute text-center max-w-[90%] mx-auto lg:mx-[inherit] mb-5 lg:mb-0 lg:max-w-[360px] lg:text-justify xl:text-left xl:max-w-[320px] 2xl:max-w-[350px] left-2 bottom-1 lg:bottom-[inherit] xl:top-[330px] 2xl:top-[400px]">
+                    <p className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal lg:absolute text-center max-w-[90%] mx-auto lg:mx-[inherit] mb-5 lg:mb-0 lg:max-w-[360px] lg:text-justify xl:text-left xl:max-w-[320px] 2xl:max-w-[350px] left-2 bottom-1 xl:bottom-[inherit] xl:top-[330px] 2xl:top-[400px]">
                         ClickFirstSMM helps ambitious brands and emerging entrepreneurs to tap the untapped marketing opportunities through the power of SOCIAL. With its celebrated team of advertising gurus and storytellers, the company sets the bar high in taking the marketing game to the next level.
                     </p>
-                    <div className="flex justify-center mb-10 flex-col sm:flex-row lg:mb-0 lg:flex-col items-center gap-5 lg:absolute bottom-5 lg:bottom-[inherit] xl:top-[350px] 2xl:top-[410px] right-2">
+                    <div className="flex justify-center mb-10 flex-col sm:flex-row lg:mb-0 lg:flex-col items-center gap-5 lg:absolute bottom-5 xl:bottom-[inherit] xl:top-[350px] 2xl:top-[410px] right-2">
                         <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
                         <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
                     </div>

@@ -12,33 +12,33 @@ import Image from "next/image"
 const data = [
     {
         icon: one,
-        title: "Understanding Your Goals",
-        text: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals."
+        title: "Deep-Dive Discovery & Strategy",
+        text: "We don’t just guess—we analyze. We study your industry, competitors, and target audience to craft a tailor-made SEO strategy that actually works."
     },
     {
         icon: two,
-        title: "SEO Audit",
-        text: "After gathering their SEO goals, we start executing our process with a complete SEO analysis and SEO audit services for your website."
+        title: "Intent-Driven Keyword Optimization",
+        text: "Forget irrelevant keywords! We identify search terms your ideal customers actually use when they’re ready to buy and optimize your content accordingly."
     },
     {
         icon: three,
-        title: "Competitive Analysis",
-        text: "The most important aspect of web SEO services is learning about competitors. Our SEO specialists perform exhaustive research on the industry to identify the key competitors."
+        title: "Conversion-Optimized Content Creation",
+        text: "SEO is nothing without engaging content. We create high-value, SEO-rich content that not only ranks but also turns visitors into paying customers."
     },
     {
         icon: four,
-        title: "On Page Optimization",
-        text: "On page optimization is perhaps the most important aspect of the entire Search Engine Optimization."
+        title: "Authority-Building Link Acquisition",
+        text: "We secure high-quality, industry-relevant backlinks that boost your website’s credibility and push you to the top of search results."
     },
     {
         icon: five,
-        title: "Off Page Optimization",
-        text: "The more authority your site has, the more Google loves it! Our Off page SEO services provider helps your brand build digital authority. With our off-page optimization."
+        title: "Technical SEO & Speed Optimization",
+        text: "Google favors websites that load fast and perform flawlessly. We fix technical issues, improve mobile-friendliness, and optimize page speed for better rankings."
     },
     {
         icon: six,
-        title: "Reporting & Analysis",
-        text: "We don't hide anything from our customers and keep them in the loop throughout the process of SEO. We offer our clients various reporting options to choose from - weekly."
+        title: "Data-Driven Adjustments & Continuous Growth",
+        text: "SEO isn’t set-and-forget. We monitor performance, track conversions, and refine our strategy every month to ensure your growth never stops."
     }
 ]
 
@@ -52,16 +52,15 @@ export default function Process() {
                         <p className="text-[16px] sm:text-[20px] font-semibold text-secondary leading-tight mb-4">
                             Stay Ahead, Be Found First!
                         </p>
-                        <h2 className="text-[26px] sm:text-[35px] md:text-[40px] lg:text-[30px] xl:text-[35px] 2xl:text-[40px] leading-snug font-semibold mb-10">
-                            Our 6-Step SEO Process Helps
-                            Your Customers Find You First!
+                        <h2 className="text-[20px] sm:text-[30px] md:text-[40px] lg:text-[25px] xl:text-[30px] 2xl:text-[35px] leading-snug font-semibold mb-10">
+                            Our Unique 6-Step SEO Process Ensures Customers Find You Before Your Competition!
                         </h2>
-                        <div className="grid grid-cols-1 w-[95%] xl:w-[85%] h-[700px] overflow-y-scroll pr-5 [&::-webkit-scrollbar]:w-[4px] [&::-webkit-scrollbar-thumb]:rounded-[4px] [&::-webkit-scrollbar-track]:rounded-[4px] [&::-webkit-scrollbar-track]:bg-accent  [&::-webkit-scrollbar-thumb]:bg-[#313131]">
+                        <div className="grid grid-cols-1 w-[95%] xl:w-[90%] h-[700px] overflow-y-scroll pr-5 [&::-webkit-scrollbar]:w-[4px] [&::-webkit-scrollbar-thumb]:rounded-[4px] [&::-webkit-scrollbar-track]:rounded-[4px] [&::-webkit-scrollbar-track]:bg-accent  [&::-webkit-scrollbar-thumb]:bg-[#313131]">
                             {
                                 data && data.map(({ icon, title, text }, i) => (
                                     <div key={i} className="transition-all duration-300 cursor-pointer py-5 pr-5 border-b-2 border-secondary">
                                         <Image src={icon} alt="Click First SMM" className="" />
-                                        <h3 className="mt-7 mb-3 text-[20px] 2xl:text-[25px] leading-tight font-semibold  transition-all duration-300">
+                                        <h3 className="mt-7 mb-3 text-[18px] lg:text-[17px] xl:text-[20px] 2xl:text-[22px] leading-snug font-semibold  transition-all duration-300">
                                             {title}
                                         </h3>
                                         <p className="text-[14px] 2xl:text-[15px] leading-relaxed transition-all duration-300">

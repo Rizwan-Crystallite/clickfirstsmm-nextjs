@@ -17,23 +17,26 @@ export default function Content1() {
                                     Optimize Your Website Today,
                                 </span>
                                 <span className="block px-1 sm:px-2 py-1 bg-black text-white w-max mb-1">
-                                    As There Comes No Better
+                                    Because Waiting Won’t Get 
                                 </span>
                                 <span className="block px-1 sm:px-2 py-1 bg-primary text-white w-max">
-                                    Tomorrow!
+                                    You Customers!
                                 </span>
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    Let’s face it. Whether you are new to the business arena or have been running an enterprise for many years, there are certain things you wish to have, ALWAYS. Sales, Revenue, and Profit! And who brings these requisites? Customers and only CUSTOMERS! But are you having trouble getting those ideal customers? If yes, need not worry. Have Jumpto1 on your side to
+                                Let’s be real; whether you're just starting out or have been in business for years, you want one thing: Sales, Revenue, and Growth. And what drives those? Customers.
+                                </p>
+                                <p>
+                                But if your ideal customers can’t find you online, your competitors will win. That’s where we come in. We turn your website into a traffic magnet that attracts, engages, and converts visitors into loyal buyers.
                                 </p>
                             </div>
-                            <h3 className="text-[20px] sm:text-[30px] 2xl:text-[35px] font-semibold leading-tight mb-2">
-                                Be The <span className="text-primary">Number 1</span>, Be On <span className="text-primary">Number 1</span>
+                            <h3 className="text-[19px] sm:text-[30px] 2xl:text-[35px] font-semibold leading-tight mb-2">
+                                Be The <span className="text-primary">Number 1</span>, Stay On <span className="text-primary">Number 1</span>
                             </h3>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    And enjoy heavy footfalls in your business arena with our professional SEO services!
+                                    Let us help you dominate your industry, rank higher, and turn searches into success.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">

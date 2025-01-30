@@ -13,15 +13,15 @@ export default function Hero() {
             <div className="relative z-10 bg-primary overflow-x-clip sm:mb-[20px] md:mb-[50px] lg:mb-[100px] pt-[100px] md:pt-[180px]">
                 <Image src={left} priority alt="Click First SMM" className="absolute top-[150px] opacity-50 sm:opacity-100 left-[-150px] animate-awards" />
                 <div className="container relative z-10 ">
-                    <div className="text-center text-white max-w-[800px] lg:max-w-[1050px] mx-auto mb-7">
+                    <div className="text-center text-white max-w-[700px] lg:max-w-[900px] mx-auto mb-7">
                         <p className="text-[18px] sm:text-[20px] lg:text-[25px] font-semibold text-secondary leading-tight mb-3">
                             Google Ads (PPC)
                         </p>
-                        <h1 className="text-[25px] sn:text-[30px] md:text-[36px] lg:text-[45px] xl:text-[50px] leading-snug font-semibold mb-4">
-                            Maximize Your Online Visibility With Effective Google Ads (PPC)
+                        <h1 className="text-[35px] sm:text-[30px] md:text-[36px] lg:text-[45px] xl:text-[50px] leading-snug font-semibold mb-4">
+                            Drive Instant Traffic & Sales with Google Ads (PPC)
                         </h1>
                         <p className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal">
-                            Google Ads (PPC) is a powerful tool for driving targeted traffic to your website. By leveraging effective ad strategies, you can maximize your online visibility, attract more customers, and boost your business's growth rapidly.
+                            Your customers are searching for your products and services right now—are they finding you or your competitors? With high-performance Google Ads, we ensure you appear at the top of search results and turn clicks into paying customers.
                         </p>
                     </div>
                     <div className="flex flex-col sm:flex-row items-center gap-5 justify-center">

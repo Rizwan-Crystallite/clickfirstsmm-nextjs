@@ -13,27 +13,27 @@ import six from "media/search-engine-optimization/problems/6.png"
 const data = [
     {
         icon: one,
-        text: "Your Business Is Not Showing On Top Search Results?"
+        text: "Your Business Isn't Ranking on Google’s First Page?"
     },
     {
         icon: two,
-        text: "Your SEO Strategy Is Failing?"
+        text: "Your SEO Strategy Isn’t Delivering Results?"
     },
     {
         icon: three,
-        text: "You Are Only Investing But Not Making Any Profits?"
+        text: "You’re Spending Money on Ads but Seeing No ROI?"
     },
     {
         icon: four,
-        text: "You Are Not Getting Organic Traffic On Your Website?"
+        text: "No Organic Traffic? No Visibility?"
     },
     {
         icon: five,
-        text: "You Are Not Getting Qualified Leads?"
+        text: "Leads Are Coming In, But They’re Not Converting?"
     },
     {
         icon: six,
-        text: "Your Current SEO Company Is Not Providing Results?"
+        text: "Your Current Marketing Agency Isn't Getting the Job Done?"
     }
 ]
 
@@ -44,17 +44,17 @@ export default function Problems() {
                 <div className="container">
                     <div className="grid grid-cols-1 xl:grid-cols-2 xl:divide-x-2 2xl:gap-x-10 items-center gap-5">
                         <div className="max-w-[650px] xl:max-w-full">
-                            <h2 className="text-[28px] sm:text-[40px] md:text-[45px] lg:text-[50px] xl:text-[45px] 2xl:text-[50px] font-semibold leading-snug mb-5">
+                            <h2 className="text-[21px] sm:text-[35px] md:text-[45px] lg:text-[50px] xl:text-[36px] 2xl:text-[41px] font-semibold leading-snug mb-5">
                                 <span className="block px-1 sm:px-2 py-1 bg-primary text-white w-max mb-1">
-                                    Is Your Business Facing
+                                    Is Your Business Struggling 
                                 </span>
                                 <span className="block px-1 sm:px-2 py-1 bg-black text-white w-max">
-                                    These Problems?
+                                    with These Digital Roadblocks?
                                 </span>
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    Enhance your online presence with expert SEO services aimed at boosting traffic and maximizing revenue. Our strategic, data-driven approach ensures higher search engine rankings, increased visibility, and substantial growth in your sales.
+                                    Enhance your online presence with expert data-driven digital marketing strategies that boost traffic, increase visibility, and maximize revenue. If you're facing any of these challenges, it’s time to take action.
                                 </p>
                             </div>
                             <ul className="mb-10 grid-cols-1 grid md:grid-cols-2 gap-x-5 gap-y-7 text-[14px] 2xl:text-[15px] leading-relaxed sm:leading-normal">

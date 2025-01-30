@@ -14,7 +14,7 @@ export default function Content3() {
                         <div>
                             <h2 className="text-[24px] sm:text-[34px] md:text-[45px] lg:text-[50px] xl:text-[40px] 2xl:text-[48px] font-semibold leading-snug mb-5">
                                 <span className="block px-1 sm:px-2 py-1 bg-primary text-white w-max mb-1">
-                                    Five Elements of Successful
+                                    The 5 Pillars of High-Impact
                                 </span>
                                 <span className="block px-1 sm:px-2 py-1 bg-black text-white w-max">
                                     Social Media Management
@@ -22,19 +22,19 @@ export default function Content3() {
                             </h2>
                             <ul className="text-[14px] sm:text-[16px] leading-relaxed grid grid-cols-1 gap-y-3 mb-7 text-text list-image-li-dot list-inside">
                                 <li>
-                                    Creating a tailored, <span className="text-primary underline underline-offset-4">results-oriented</span> strategy
+                                    <span className="text-primary underline underline-offset-4">Results-Driven Strategy</span> A well-crafted, goal-oriented plan ensures your brand message is clear, targeted, and designed to convert.
                                 </li>
                                 <li>
-                                    Regularly distributing <span className="text-primary underline underline-offset-4">scroll-stopping content</span> across social platforms
+                                    <span className="text-primary underline underline-offset-4">Thumb-Stopping Content Creation</span> Consistently sharing engaging, visually compelling, and value-driven content keeps your audience hooked and your brand relevant.
                                 </li>
                                 <li>
-                                    <span className="text-primary underline underline-offset-4">Monitoring conversations</span> around the brand on social media
+                                    <span className="text-primary underline underline-offset-4">Active Social Listening & Community Monitoring</span> Tracking conversations around your brand helps you understand audience sentiment, respond quickly, and strengthen your online reputation.
                                 </li>
                                 <li>
-                                    <span className="text-primary underline underline-offset-4">Engaging</span> with the brand’s community on social media
+                                    <span className="text-primary underline underline-offset-4">Authentic Engagement & Interaction</span> Social media is a two-way street. Engaging with your audience through meaningful conversations, comments, and real-time interactions fosters trust and loyalty.
                                 </li>
                                 <li>
-                                    <span className="text-primary underline underline-offset-4">Monitoring performance</span> before, during and post-campaign
+                                    <span className="text-primary underline underline-offset-4">Performance Tracking & Optimization</span> Success is measurable. Analyzing key metrics before, during, and after campaigns helps you refine your strategy, optimize performance, and maximize ROI.
                                 </li>
                             </ul>
                             <div className="flex flex-col sm:flex-row gap-5">

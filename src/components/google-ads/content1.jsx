@@ -18,16 +18,13 @@ export default function Content1() {
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    PPC advertising is a keyword-based marketing tactic where services like AdWords assign value to search terms based on search volume, difficulty, and competition. The more advertisers bidding on a keyword, the higher its price.
+                                    PPC (Pay-Per-Click) advertising is a keyword-driven strategy that allows businesses to bid for placement in search engine results. Platforms like Google Ads assign value to keywords based on search volume, competition, and difficulty. The more advertisers competing for a keyword, the higher the cost per click (CPC).
                                 </p>
                                 <p>
-                                    Platforms like Google’s homepage offer limited PPC ad slots, so securing your spot requires competitive bidding. Simply paying more does not guarantee enhanced visibility for your ads.
+                                    Since ad placements are limited, businesses must engage in competitive bidding to secure top spots. However, outbidding competitors isn’t enough. Google considers factors like ad relevance, landing page experience, and Quality Score to determine rankings.
                                 </p>
                                 <p>
-                                    PPC ads, including Google’s, undergo an ad auction process. This automated system assesses ad relevance and Quality Score to determine placement on search engine results pages (SERPs). A higher Quality Score improves ad position and reduces cost per click (CPC).
-                                </p>
-                                <p>
-                                    To achieve a strong Quality Score, ensure your PPC ads are relevant to your target audience, use valuable keywords, achieve high click-through rates (CTRs), and lead to well-optimized landing pages.
+                                    Google and other PPC platforms use an automated auction system to decide which ads get displayed. A higher Quality Score can lower CPCs while improving ad placement, ensuring your budget delivers maximum results.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">

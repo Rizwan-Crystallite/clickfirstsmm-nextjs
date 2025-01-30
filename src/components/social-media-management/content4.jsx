@@ -7,16 +7,16 @@ import bg from "media/social-media-management/content4.png"
 
 const data = [
     {
-        title: "Everything is Data-Driven",
-        para: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals."
+        title: "Data-Driven at Every Step",
+        para: "We start with in-depth research to understand your audience, industry trends, and competition. Every decision is based on real-time insights, not guesswork."
     },
     {
-        title: "We Work With You and For You",
-        para: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals."
+        title: "Collaborative & Client-Focused",
+        para: "We don’t just work for you; we work with you. Through strategic planning sessions, we align our approach with your goals, voice, and vision."
     },
     {
-        title: "Clear and Concise Reporting",
-        para: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals."
+        title: "Reporting & Continuous Optimization",
+        para: "Data is power. We provide clear, concise reports so you always know what’s working. Our team continuously optimizes campaigns to ensure maximum engagement and ROI."
     }
 ]
 
@@ -28,12 +28,12 @@ export default function Content4() {
                 <div className="container">
                     <div className="grid xl:grid-cols-2 gap-x-5 items-center">
                         <div className="text-white">
-                            <h2 className="text-[30px] sm:text-[40px] md:text-[45px] lg:text-[50px] font-semibold leading-snug mb-5 max-w-[600px]">
-                                Our <span className="text-primary">Social Media</span>  Management Process
+                            <h2 className="text-[25px] sm:text-[40px] md:text-[45px] lg:text-[45px] font-semibold leading-snug mb-5 max-w-[600px]">
+                                Our Proven <span className="text-primary">Social Media</span>  Management Process
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7">
                                 <p>
-                                    We love to explore every possible way to help brands extend their reach. In affiliation with these partners, we strive to sweeten your digital worth and push your brand to climb the ladder of online success!
+                                    Success on social media isn’t just about posting—it’s about strategy, precision, and execution. Our process ensures your brand doesn’t just show up but stands out, engages, and converts.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
@@ -45,10 +45,10 @@ export default function Content4() {
                             {
                                 data && data.map(({ title, para }, i) => (
                                     <div key={i} className="bg-[#292929] pl-7 pr-3 py-10 sm:p-10 rounded-r-lg relative before:content-[''] before:absolute before:w-5 before:h-full before:top-0 before:bottom-0 before:left-0 before:bg-primary hover:before:w-full before:-z-10 z-10 before:transition-all before:duration-300 sm:[&:nth-child(2)]:ml-10">
-                                        <h3 className="mb-3 text-[18px] sm:text-[25px] md:text-[25px] leading-tight font-semibold">
+                                        <h3 className="mb-3 text-[18px] sm:text-[22px] leading-snug font-semibold">
                                             {title}
                                         </h3>
-                                        <p className="text-[14px] sm:text-[16px] leading-relaxed xl:max-w-[480px] 2xl:max-w-full">
+                                        <p className="text-[14px] sm:text-[16px] leading-relaxed">
                                             {para}
                                         </p>
                                     </div>

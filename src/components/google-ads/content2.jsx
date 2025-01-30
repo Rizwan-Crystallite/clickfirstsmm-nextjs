@@ -13,15 +13,12 @@ export default function Content2() {
                     <div className="grid xl:grid-cols-2 gap-x-5 items-center">
                         <div className="text-white">
                             <h2 className="text-[24px] sm:text-[35px] md:text-[40px] lg:text-[50px] xl:text-[42px] 2xl:text-[48px] font-semibold leading-snug mb-5">
-                                <span className="block px-1 sm:px-2 py-1 bg-secondary w-max mb-1">Why Select Click First for</span>
-                                <span className="block px-1 sm:px-2 py-1 bg-black w-max">Pay Per Click Services</span>
+                                <span className="block px-1 sm:px-2 py-1 bg-secondary w-max mb-1">Why Choose Click First</span>
+                                <span className="block px-1 sm:px-2 py-1 bg-black w-max">for PPC?</span>
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7">
                                 <p>
-                                    Pay Per Click (PPC) marketing is an effective way to drive targeted traffic to your website, ensuring that you reach users actively searching for your products or services. By bidding on relevant keywords, you can place your ads in front of potential customers at the exact moment they're interested.
-                                </p>
-                                <p>
-                                    Additionally, PPC marketing provides measurable results and precise control over your budget. With detailed analytics, you can track performance, adjust strategies, and optimize your campaigns to achieve the best return on investment.
+                                    Your ads shouldn’t just drive traffic; they should drive results. We solve real business problems and eliminate wasted ad spend with strategic, performance-driven PPC campaigns tailored for maximum ROI.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">

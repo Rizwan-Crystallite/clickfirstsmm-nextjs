@@ -7,16 +7,16 @@ import bg from "media/social-media-management/content4.png"
 
 const data = [
     {
-        title: "Everything is Data-Driven",
-        para: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals."
+        title: "Everything We Do is Data-Driven",
+        para: "We start by analyzing your market, audience behavior, and competitors to craft a high-impact strategy that delivers measurable results. No guesswork—just insights that convert."
     },
     {
-        title: "We Work With You and For You",
-        para: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals."
+        title: "We Work With You & For You",
+        para: "Collaboration is at our core. We align every campaign with your business goals, brand voice, and audience expectations to ensure a seamless, high-ROI advertising experience."
     },
     {
-        title: "Clear and Concise Reporting",
-        para: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals."
+        title: "Clear, Concise, and Actionable Reporting",
+        para: "You’ll never be left in the dark. Our transparent reporting provides real-time insights, key performance metrics, and strategic recommendations to help you scale efficiently."
     }
 ]
 
@@ -28,17 +28,17 @@ export default function Content3() {
                 <div className="container">
                     <div className="grid xl:grid-cols-2 gap-x-5 items-center">
                         <div className="">
-                            <h2 className="text-[30px] sm:text-[34px] md:text-[40px] lg:text-[50px] xl:text-[36px] 2xl:text-[42px] font-semibold leading-snug mb-5">
+                            <h2 className="text-[18px] sm:text-[28px] md:text-[37px] lg:text-[50px] xl:text-[30px] 2xl:text-[35px] font-semibold leading-snug mb-5">
                                 <span className="block px-1 sm:px-2 py-1 bg-primary text-white w-max mb-1">
-                                    Our Social Media
+                                    Our Social Media Advertising Process
                                 </span>
                                 <span className="block px-1 sm:px-2 py-1 bg-black text-white w-max">
-                                    Advertising Process
+                                    Turning Clicks into Conversions 
                                 </span>
                             </h2>
                             <div className="text-[14px] sm:text-[16px] text-text leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7">
                                 <p>
-                                    We love to explore every possible way to help brands extend their reach. In affiliation with these partners, we strive to sweeten your digital worth and push your brand to climb the ladder of online success!
+                                    We don’t just run ads—we engineer strategic, data-driven campaigns that maximize engagement, build trust, and drive real business growth. Our proven approach ensures every ad dollar works harder for you.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
@@ -50,7 +50,7 @@ export default function Content3() {
                             {
                                 data && data.map(({ title, para }, i) => (
                                     <div key={i} className="bg-[#E4E4E4] pl-7 pr-3 py-10 sm:p-10 rounded-r-lg relative before:content-[''] before:absolute before:w-5 before:h-full before:top-0 before:bottom-0 before:left-0 before:bg-[#D6D6D6] hover:before:w-full before:-z-10 z-10 before:transition-all before:duration-300 sm:[&:nth-child(2)]:ml-10">
-                                        <h3 className="mb-3 text-[18px] sm:text-[25px] md:text-[25px] leading-tight font-semibold text-black">
+                                        <h3 className="mb-3 text-[16px] sm:text-[20px] 2xl:text-[25px] leading-snug font-semibold text-black">
                                             {title}
                                         </h3>
                                         <p className="text-[14px] sm:text-[16px] leading-relaxed xl:max-w-[480px] 2xl:max-w-full">

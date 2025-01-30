@@ -18,7 +18,13 @@ export default function Form() {
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    Optimize your success with Google Ads PPC by leveraging precise targeting and strategic keyword bidding. Our tailored campaigns ensure your ads reach the right audience at the right time, maximizing visibility and conversions. Track performance with detailed analytics to continually refine and enhance your advertising efforts for the best results.
+                                    Unlock instant visibility and targeted traffic with high-performance Google Ads. Our tailored PPC campaigns ensure your business appears exactly when your ideal customers are searching, driving real engagement and conversions.
+                                </p>
+                                <p>
+                                    By leveraging strategic keyword bidding and precision targeting, we put your brand in front of high-intent buyers, maximizing your ad spend efficiency. Our data-driven approach continuously analyzes and optimizes performance, ensuring higher ROI and lower wasted spend.
+                                </p>
+                                <p>
+                                    With detailed tracking and real-time adjustments, we refine your campaigns to keep them performing at their best. Whether you're looking to generate leads, increase sales, or boost brand awareness, our PPC strategies help you achieve measurable results—fast.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
