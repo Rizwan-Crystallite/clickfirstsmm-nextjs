@@ -12,28 +12,31 @@ export default function Content1() {
                 <div className="container">
                     <div className="grid xl:grid-cols-2 gap-x-5 items-center">
                         <div>
-                            <h2 className="text-[25px] sm:text-[34px] md:text-[40px] lg:text-[50px] xl:text-[43px] 2xl:text-[50px] font-semibold leading-snug mb-5">
+                            <h2 className="text-[19px] sm:text-[30px] md:text-[35px] lg:text-[45px] xl:text-[33px] 2xl:text-[39px] font-semibold leading-snug mb-5">
                                 <span className="block px-1 sm:px-2 py-1 bg-primary text-white w-max mb-1">
-                                    Monetization Strategies
+                                    Your Views Are Climbing—But 
                                 </span>
                                 <span className="block px-1 sm:px-2 py-1 bg-black text-white w-max">
-                                    for Maximum Revenue
+                                    Is Your Bank Account Keeping Up?
                                 </span>
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    Monetize your YouTube channel effectively to maximize revenue and grow your audience. Start by enabling AdSense and ensuring your content adheres to YouTube's monetization policies. Create engaging, high-quality videos that encourage viewer retention and interaction. Use keyword-rich titles, descriptions, and tags to optimize each video for searchability.
+                                    High CPMs. Longer session durations. Perfect mid-roll placement. A premium audience that advertisers can’t resist. That’s how top creators turn views into serious revenue. But if your RPM is low, your audience retention isn’t optimized, or you’re not stacking multiple income streams, you’re leaving money on the table, BIG time.
                                 </p>
                                 <p>
-                                    Incorporate diverse revenue streams such as Super Chats, channel memberships, and merchandise sales. Promote these options actively within your videos and through your channel’s community tab. Collaborate with brands for sponsorship deals, offering value to both your viewers and the sponsors.
+                                    YouTube’s biggest earners don’t rely on AdSense alone. They know how to structure content that keeps viewers hooked, maximizes ad impressions, and attracts high-paying brand deals. If your content isn’t built for long watch times, repeat viewers, and premium monetization opportunities, you’re playing small.
                                 </p>
                                 <p>
-                                    Leverage YouTube Analytics to monitor key metrics like CPM (Cost Per Mille), watch time, and audience demographics. Use this data to refine your content strategy, focusing on what resonates most with your audience. By consistently applying these monetization strategies, you’ll increase your channel’s income potential and build a sustainable, thriving YouTube presence.
+                                    We’ll analyze your channel, break down exactly where you're missing revenue, and give you a clear roadmap to turning your content into a revenue machine. No fluff, no recycled strategies—just pure, data-driven monetization tactics that work.
+                                </p>
+                                <p>
+                                    <strong>Think your channel is making as much as it should? Let’s find out.</strong>
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
                                 <CTA css="!bg-primary hover:!bg-black" theme="secondary" size="large" text="Talk To An Expert" />
-                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                             </div>
                         </div>
                         <div>

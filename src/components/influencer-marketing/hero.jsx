@@ -34,7 +34,7 @@ export default function Hero() {
                     </p>
                     <div className="flex justify-center mb-10 flex-col sm:flex-row lg:mb-0 lg:flex-col items-center gap-5 lg:absolute bottom-5 xl:bottom-[inherit] xl:top-[280px] 2xl:top-[410px] right-2">
                         <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
-                        <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                        <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                     </div>
                     <Image src={bg} alt="Click First SMM" priority className="mx-auto -z-10 max-w-[90%] 2xl:max-w-full" />
                 </div>

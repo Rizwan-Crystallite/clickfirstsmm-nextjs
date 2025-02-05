@@ -44,55 +44,55 @@ const Navigation = () => {
       title: "Social Media Marketing",
       svg: "smm",
       desc: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-      link: "/social-media-marketing",
+      link: "/social-media-marketing-services",
     },
     {
       title: "YouTube Monetization",
       svg: "ym",
       desc: "Maximize your YouTube presence with optimized content that attracts views and grows your subscriber base.",
-      link: "/youtube-monetization",
+      link: "/youtube-monetization-services",
     },
     {
       title: "Social Media Management",
       svg: "smmTwo",
       desc: "Efficiently manage your brand’s online presence with strategies that build engagement and loyalty.",
-      link: "/social-media-management",
+      link: "/social-media-management-services",
     },
     {
       title: "Search Engine Optimization",
       svg: "seo",
       desc: "Boost your visibility with data-driven SEO strategies tailored to drive traffic and increase conversions.",
-      link: "/search-engine-optimization",
+      link: "/youtube-monetization-services",
     },
     {
       title: "Social Media Advertising",
       svg: "sma",
       desc: "Drive targeted traffic and maximize ROI with precision-focused ad campaigns that capture attention.",
-      link: "/social-media-advertising",
+      link: "/social-media-advertising-services",
     },
     {
       title: "Google Ads (PPC)",
       svg: "ppc",
       desc: "Boost your visibility with data-driven SEO strategies tailored to drive traffic and increase conversions.",
-      link: "/google-ads",
+      link: "/google-ads-services",
     },
     {
       title: "Influencer Marketing",
       svg: "im",
       desc: "Harness the power of influencers to amplify your brand’s reach and connect with your target audience.",
-      link: "/influencer-marketing",
+      link: "/influencer-marketing-services",
     },
     {
       title: "Email Marketing",
       svg: "em",
       desc: "Engage your audience with personalized email campaigns designed to nurture leads and drive sales.",
-      link: "/email-marketing",
+      link: "/email-marketing-services",
     },
     {
       title: "YouTube Optimization",
       svg: "yo",
       desc: "Maximize your YouTube presence with optimized content that attracts views and grows your subscriber base.",
-      link: "/youtube-optimization",
+      link: "/youtube-optimization-services",
     },
   ]
 
@@ -637,8 +637,8 @@ const Navigation = () => {
         {[
           ["Home", "/"],
           ["Services"],
-          ["Influencer Marketing", "/influencer-marketing"],
-          ["YouTube monetization", "/youtube-monetization"],
+          ["Influencer Marketing", "/influencer-marketing-services"],
+          ["YouTube monetization", "/youtube-monetization-services"],
           ["About", "/about-us"],
           ["Contact Us", "/contact-us"],
         ].map(([text, link], i) => {
@@ -706,7 +706,7 @@ const Navigation = () => {
         <MobileNav />
       </div>
       <CTA
-        text="Call Now: 346-299-2202"
+        href="tel:346-299-2202" text="Call Now: 346-299-2202"  
         css="md:inline-flex hidden w-[220px] h-[45px] bg-transparent border border-white hover:bg-secondary hover:border-secondary hover:rounded-[5px_0_15px_5px]"
       />
     </nav>

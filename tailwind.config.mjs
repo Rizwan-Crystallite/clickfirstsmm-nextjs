@@ -50,6 +50,7 @@ export const theme = {
     listStyleImage: {
       "li-dot": 'url("/li_dot.png")',
       "li-mar": 'url("/li_mar.png")',
+      "li-check-3": 'url("/li-check-3.png")',
     },
   }
 }

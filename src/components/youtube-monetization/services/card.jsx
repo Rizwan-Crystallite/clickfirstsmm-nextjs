@@ -15,55 +15,55 @@ const data = [
     {
         icon: one,
         title: "Channel Optimization",
-        para: "Discover top-performing keywords to boost your video's search ranking and attract more viewers effortlessly.",
+        para: "Your content deserves to be seen. We fine-tune your channel with top-performing keywords, strategic structuring, and algorithm-friendly techniques to maximize discoverability.",
         link: "javascript:;"
     },
     {
         icon: two,
         title: "Content Strategy Planning",
-        para: "Optimize titles, descriptions, and tags to enhance your video's visibility and improve search rankings effectively.",
+        para: "Great content needs the right positioning. We craft powerful titles, descriptions, and tags designed to increase visibility, engagement, and long-term channel growth.",
         link: "javascript:;"
     },
     {
         icon: three,
         title: "Video SEO Optimization",
-        para: "Enhance your channel's layout and branding to create a professional, engaging experience that attracts viewers.",
+        para: "Ranking higher isn’t luck—it’s science. We optimize your videos with proven SEO tactics, ensuring your content reaches the right audience at the right time.",
         link: "javascript:;"
     },
     {
         icon: four,
         title: "AdSense Account Setup",
-        para: "Track performance with detailed analytics and reports to gain insights and drive strategic channel improvements.",
+        para: "Monetization starts with the right foundation. We set up and optimize your AdSense account for maximum revenue potential, backed by performance insights and analytics.",
         link: "javascript:;"
     },
     {
         icon: five,
         title: "Brand Partnership Management",
-        para: "Create visually striking custom thumbnails to enhance video appeal and increase click-through rates effectively.",
+        para: "Your channel is a brand—treat it like one. We help you secure partnerships, optimize sponsorships, and create high-converting brand deals that align with your content.",
         link: "javascript:;"
     },
     {
         icon: six,
         title: "Merchandise Store Integration",
-        para: "Organize videos with playlists and use end screens to boost viewer engagement and increase watch time.",
+        para: "Turn your audience into paying customers. We seamlessly integrate merchandise stores, playlists, and end screens to boost engagement and drive conversions.",
         link: "javascript:;"
     },
     {
         icon: seven,
         title: "Super Chats Setup",
-        para: "Implement strategies to keep viewers engaged longer, improving watch time and overall channel performance.",
+        para: "Turn engagement into earnings. We optimize your Super Chats setup to maximize audience interaction and increase revenue during live streams.",
         link: "javascript:;"
     },
     {
         icon: eight,
         title: "Membership Tiers Creation",
-        para: "Analyze competitors to identify trends and opportunities, helping you outperform and capture a larger audience.",
+        para: "Loyal fans want more from you—give them exclusive perks, content, and community benefits with a well-structured membership program. We help set it up the right way.",
         link: "javascript:;"
     },
     {
         icon: nine,
         title: "Performance Analytics Reports",
-        para: "Develop a targeted content strategy to consistently create high-quality videos that attract and retain viewers.",
+        para: "Success is in the numbers. We analyze your channel’s performance, audience behavior, and revenue streams to fine-tune strategies for consistent growth.",
         link: "javascript:;"
     }
 ]

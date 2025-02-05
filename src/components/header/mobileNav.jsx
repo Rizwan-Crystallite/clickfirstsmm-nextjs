@@ -27,55 +27,55 @@ const servicesMenu = [
     title: "Social Media Marketing",
     svg: "smm",
     desc: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-    link: "/social-media-marketing",
+    link: "/social-media-marketing-services",
   },
   {
     title: "YouTube Monetization",
     svg: "ym",
     desc: "Maximize your YouTube presence with optimized content that attracts views and grows your subscriber base.",
-    link: "/youtube-monetization",
+    link: "/youtube-monetization-services",
   },
   {
     title: "Social Media Management",
     svg: "smmTwo",
     desc: "Efficiently manage your brand’s online presence with strategies that build engagement and loyalty.",
-    link: "/social-media-management",
+    link: "/social-media-management-services",
   },
   {
     title: "Search Engine Optimization",
     svg: "seo",
     desc: "Boost your visibility with data-driven SEO strategies tailored to drive traffic and increase conversions.",
-    link: "/search-engine-optimization",
+    link: "/youtube-monetization-services",
   },
   {
     title: "Social Media Advertising",
     svg: "sma",
     desc: "Drive targeted traffic and maximize ROI with precision-focused ad campaigns that capture attention.",
-    link: "/social-media-advertising",
+    link: "/social-media-advertising-services",
   },
   {
     title: "Google Ads (PPC)",
     svg: "ppc",
     desc: "Boost your visibility with data-driven SEO strategies tailored to drive traffic and increase conversions.",
-    link: "/google-ads",
+    link: "/google-ads-services",
   },
   {
     title: "Influencer Marketing",
     svg: "im",
     desc: "Harness the power of influencers to amplify your brand’s reach and connect with your target audience.",
-    link: "/influencer-marketing",
+    link: "/influencer-marketing-services",
   },
   {
     title: "Email Marketing",
     svg: "em",
     desc: "Engage your audience with personalized email campaigns designed to nurture leads and drive sales.",
-    link: "/email-marketing",
+    link: "/email-marketing-services",
   },
   {
     title: "YouTube Optimization",
     svg: "yo",
     desc: "Maximize your YouTube presence with optimized content that attracts views and grows your subscriber base.",
-    link: "/youtube-optimization",
+    link: "/youtube-optimization-services",
   },
 ]
 const renderSVG = (type) => {
@@ -617,18 +617,18 @@ export default function MobileNav() {
                         <li key={i}>
                           <Link
                             href={link}
-                            className="group flex items-center gap-x-3"
+                            className="group flex flex-col sm:flex-row items-center gap-x-3"
                             onClick={() => setIsOpen(false)}
                           >
                             {renderSVG(svg)}
                             <div>
                               <div className="w-max relative overflow-hidden">
-                                <span className="transition-all ease-in-out duration-300 group-hover:text-secondary block text-sm leading-tight mb-[5px] font-semibold">
+                                <span className="transition-all ease-in-out duration-300 group-hover:text-secondary block text-sm leading-tight sm:mb-[5px] font-semibold">
                                   {title}
                                 </span>
                                 <span className="transition-all ease-in-out duration-300 -translate-x-full group-hover:translate-x-0 bg-white block absolute w-full bottom-px h-[2px]"></span>
                               </div>
-                              <p className="text-xs leading-normal font-medium">
+                              <p className="text-xs leading-normal font-medium hidden sm:block">
                                 {desc}
                               </p>
                             </div>
@@ -650,7 +650,7 @@ export default function MobileNav() {
         </ul>
         <div>
           <CTA
-            text="Call Now: 346-299-2202"
+            href="tel:346-299-2202" text="Call Now: 346-299-2202"  
             css="inline-flex w-[220px] h-[45px] border border-white hover:bg-secondary hover:border-secondary hover:rounded-[5px_0_15px_5px]"
           />
         </div>

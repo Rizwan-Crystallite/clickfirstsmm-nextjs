@@ -8,22 +8,28 @@ export default function Form() {
                 <div className="container">
                     <div className="grid grid-cols-1 xl:grid-cols-2 xl:divide-x-2 2xl:gap-x-10 items-center gap-5">
                         <div className="">
-                            <h2 className="text-[20px] sm:text-[32px] md:text-[40px] lg:text-[45px] xl:text-[35px] 2xl:text-[40px] font-semibold leading-snug mb-5">
+                            <h2 className="text-[25px] sm:text-[32px] md:text-[40px] lg:text-[45px] xl:text-[35px] 2xl:text-[40px] font-semibold leading-snug mb-5">
                                 <span className="block px-1 sm:px-2 py-1 bg-primary text-white w-max mb-1">
-                                    Boost Engagement with Expert 
+                                    Struggling to Make Email
                                 </span>
                                 <span className="block px-1 sm:px-2 py-1 bg-black text-white w-max">
-                                    Email Marketing Strategies
+                                Work?  Let’s Fix That.
                                 </span>
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    Elevate your marketing efforts with our expert strategies that craft compelling and personalized email campaigns. By targeting the right audience with relevant content, we drive higher engagement and foster stronger connections. Let us help you achieve exceptional results and maximize your email marketing impact.
+                                Most emails get ignored because they feel like marketing, not value. If your emails aren’t getting opened, clicked, and converting, you’re leaving money on the table.
+                                </p>
+                                <p>
+                                Let’s break down what’s working, what’s not, and how to turn your emails into a real revenue driver. No fluff, just results.
+                                </p>
+                                <p>
+                                    <strong>Fill out the form, we’ll show you what’s possible.</strong>
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
                                 <CTA css="!bg-primary hover:!bg-black" theme="secondary" size="large" text="Talk To An Expert" />
-                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                             </div>
                         </div>
                         <div>

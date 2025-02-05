@@ -66,7 +66,7 @@ export default function WhyChooseTabs() {
                                         <div className="[&_h3]:text-[20px] [&_h3]:lg:text-[18px] [&_h3]:mb-3 [&_h3]:xl:text-[25px] [&_h3]:font-semibold [&_h3]:leading-snug  [&_p]:text-[14px] [&_p]:sm:text-[16px] [&_p]:leading-relaxed [&_p]:sm:leading-normal [&_p:nth-child(2)]:mb-5 [&_ul]:mb-5 [&_ul]:grid [&_ul]:grid-cols-1 [&_ul]:gap-y-2" dangerouslySetInnerHTML={{ __html: desc }} />
                                         <div className="flex flex-col sm:flex-row gap-5 mt-5">
                                             <CTA css="hover:!bg-white hover:!text-black" theme="secondary" size="large" text="Talk To An Expert" />
-                                            <CTA css="hover:bg-primary hover:border-primary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                            <CTA css="hover:bg-primary hover:border-primary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                                         </div>
                                     </TabsContent>
                                 ))

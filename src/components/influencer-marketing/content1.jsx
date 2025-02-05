@@ -29,7 +29,7 @@ export default function Content1() {
                         </div>
                         <div className="flex flex-col items-center sm:flex-row gap-5 justify-center">
                             <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
-                            <CTA css="hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                            <CTA css="hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                         </div>
                         <Image src={One} alt="Click First SMM" className="mx-auto mt-10 max-w-full lg:max-w-[70%] 2xl:max-w-full" />
                     </div>

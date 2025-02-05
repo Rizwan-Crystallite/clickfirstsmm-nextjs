@@ -17,15 +17,15 @@ export default function Hero() {
                             <p className="text-[18px] sm:text-[20px] lg:text-[25px] font-semibold text-secondary leading-tight mb-3">
                                 Email Marketing
                             </p>
-                            <h1 className="text-[25px] sm:text-[40px] xl:text-[50px] leading-snug font-semibold mb-4">
-                                Transform Your Outreach With Effective Email Campaigns
+                            <h1 className="text-[32px] sm:text-[50px] md:text-[45px] xl:text-[55px] leading-snug font-semibold mb-4">
+                                Emails Aren’t Dead. Your Strategy Is.
                             </h1>
                             <p className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal mb-7">
-                                Unlock the full potential of your marketing strategy with targeted email campaigns. Our email marketing solutions are designed to drive engagement, boost conversions, and build lasting customer relationships.
+                                Every time someone says “email doesn’t work,” what they really mean is “I don’t know how to make it work.” The problem isn’t the inbox, it’s what you’re putting in it. If your emails are getting ignored, it’s because they sound like noise, not value. If your list isn’t converting, it’s because you’re sending what you want, not what they need. Email isn’t outdated. Bad marketing is. Let’s fix that.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-5">
                                 <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
-                                <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                             </div>
                         </div>
                         <div>

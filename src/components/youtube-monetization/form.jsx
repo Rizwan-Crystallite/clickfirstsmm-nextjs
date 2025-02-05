@@ -8,22 +8,28 @@ export default function Form() {
                 <div className="container">
                     <div className="grid grid-cols-1 xl:grid-cols-2 xl:divide-x-2 2xl:gap-x-10 items-center gap-5">
                         <div className="">
-                            <h2 className="text-[25px] sm:text-[32px] md:text-[40px] lg:text-[45px] xl:text-[45px] 2xl:text-[50px] font-semibold leading-snug mb-5">
+                            <h2 className="text-[23px] sm:text-[32px] md:text-[40px] lg:text-[45px] xl:text-[37px] 2xl:text-[45px] font-semibold leading-snug mb-5">
                                 <span className="block px-1 sm:px-2 py-1 bg-primary text-white w-max mb-1">
-                                    Boost Your YouTube
+                                    Y   ou’ve Got the Content. Now
                                 </span>
                                 <span className="block px-1 sm:px-2 py-1 bg-black text-white w-max">
-                                    Channel to New Heights
+                                    Let’s Make It Work for You.
                                 </span>
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    Boost your YouTube channel to new heights with our expert optimization services. Increase your visibility, drive engagement, and grow your subscriber base with proven strategies tailored to your content. From keyword research and video SEO to analytics and competitor analysis, we provide comprehensive solutions to ensure your channel stands out and thrives in the competitive YouTube landscape.
+                                    You’ve scrolled this far because you know your YouTube channel has more potential. The problem isn’t your effort; it’s the strategy behind it.
+                                </p>
+                                <p>
+                                    More uploads won’t fix low engagement. Better thumbnails won’t guarantee subscribers. Real growth comes from understanding how to position, optimize, and monetize your content the right way.
+                                </p>
+                                <p>
+                                    That’s where we come in. We break down exactly what’s holding your channel back and give you a clear, actionable plan to scale. No empty promises, just data-backed strategies that drive real results.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
                                 <CTA css="!bg-primary hover:!bg-black" theme="secondary" size="large" text="Talk To An Expert" />
-                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                             </div>
                         </div>
                         <div>

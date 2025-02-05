@@ -129,7 +129,7 @@ export default function Slider() {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-5 mb-[40px]">
                                 <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Read Case Study" />
-                                <CTA css="hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                <CTA css="hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                             </div>
                             <div className="grid grid-cols-2 gap-5 md:gap-0 md:flex md:divide-x-2 items-center">
                                 {

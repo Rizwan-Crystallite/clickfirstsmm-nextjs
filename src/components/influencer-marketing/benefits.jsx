@@ -72,7 +72,7 @@ export default function Benefits() {
                     </div>
                     <div className="flex flex-col sm:flex-row items-center gap-5 justify-center">
                         <CTA css="!bg-primary hover:!bg-black" theme="secondary" size="large" text="Talk To An Expert" />
-                        <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                        <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                     </div>
                 </div>
             </div>

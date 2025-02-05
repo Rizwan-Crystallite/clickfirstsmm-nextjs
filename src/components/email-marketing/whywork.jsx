@@ -8,18 +8,18 @@ import three from "media/email-marketing/whywork/3.png"
 const data = [
     {
         icon: one,
-        title: "Proven Results",
-        para: "Our strategies deliver measurable results, driving higher engagement and conversions for your business."
+        title: "Data, Not Guesswork",
+        para: "We track what works and optimize every campaign."
     },
     {
         icon: two,
-        title: "Expert Team",
-        para: "Work with seasoned professionals who tailor solutions to your unique marketing needs."
+        title: "Emails People Read",
+        para: "No fluff—just messages that engage and convert."
     },
     {
         icon: three,
-        title: "Innovative Solutions",
-        para: "Benefit from cutting-edge techniques and tools to stay ahead in email marketing."
+        title: "Smart Automations",
+        para: "Right message, right time, without feeling robotic."
     }
 ]
 
@@ -30,10 +30,11 @@ export default function WhyWork() {
                 <div className="container">
                     <div className="text-center mb-[50px] z-20 relative">
                         <h2 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] font-semibold leading-tight mb-5">
-                            Why <span className="text-primary">Work</span> With Us?
+                            Why <span className="text-primary">Work</span> With Us? 
                         </h2>
-                        <p className="max-w-[600px] lg:max-w-[938px] inline-block text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal text-text">
-                            Partner with us to leverage our expertise and innovative strategies for exceptional email marketing. We drive results through tailored solutions that meet your unique needs.
+                        <p className="font-bold text-primary mb-3">Because We’re Better Than Your Ex (Marketer)!</p>
+                        <p className="max-w-[600px] lg:max-w-[800px] inline-block text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal text-text">
+                            Most email marketing fails because it’s done without thought, without strategy, and without understanding what actually works. We do things differently.
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10">
@@ -44,7 +45,7 @@ export default function WhyWork() {
                                     <h3 className="text-[18px] md:text-[25px] xl:text-[18px] 2xl:text-[20px] font-semibold mb-3 mt-5 leading-tight">
                                         {title}
                                     </h3>
-                                    <p className="text-[14px] lg:text-[16px] xl:text-[14px] 2xl:text-[15px] leading-relaxed text-text max-w-[300px] md:max-w-full inline-block">
+                                    <p className="text-[14px] lg:text-[16px] xl:text-[14px] 2xl:text-[15px] leading-relaxed text-text max-w-[280px] inline-block">
                                         {para}
                                     </p>
                                 </div>

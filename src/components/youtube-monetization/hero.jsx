@@ -18,14 +18,14 @@ export default function Hero() {
                                 Youtube Monetization
                             </p>
                             <h1 className="text-[30px] sm:text-[45px] xl:text-[50px] leading-snug font-semibold mb-4">
-                                Maximize Your Youtube Growth With Expert Optimization Strategies
+                                YouTube Growth Isn’t About Luck. It’s About Strategy.
                             </h1>
                             <p className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal mb-7">
-                                Supercharge your YouTube channel with our tailored optimization strategies. Achieve higher visibility, engage your audience, and accelerate your growth with expert insights and tools.
+                                Most creators are stuck chasing trends, hoping for a viral hit. That’s not a strategy, it’s a gamble. We don’t do gimmicks. We build sustainable, scalable growth that turns views into revenue and channels into brands. If you’re done guessing and ready for real results, let’s talk.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-5">
                                 <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
-                                <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                             </div>
                         </div>
                         <div>

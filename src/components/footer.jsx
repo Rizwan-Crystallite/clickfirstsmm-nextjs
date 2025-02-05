@@ -63,15 +63,15 @@ export default function Footer() {
                             <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-3 gap-x-5">
                                 {
                                     [
-                                        ["Social Media Marketing", "/social-media-marketing"],
-                                        ["Social Media Advertising", "/social-media-advertising"],
-                                        ["Social Media Management", "/social-media-management"],
-                                        ["YouTube Optimization", "/youtube-optimization"],
-                                        ["Search Engine Optimization", "/search-engine-optimization"],
-                                        ["Email Marketing", "/email-marketing"],
-                                        ["Influencer Marketing", "/influencer-marketing"],
-                                        ["YouTube Monetization", "/youtube-monetization"],
-                                        ["Google Ads (PPC)", "/google-ads"]
+                                        ["Social Media Marketing", "/social-media-marketing-services"],
+                                        ["Social Media Advertising", "/social-media-advertising-services"],
+                                        ["Social Media Management", "/social-media-management-services"],
+                                        ["YouTube Optimization", "/youtube-optimization-services"],
+                                        ["Search Engine Optimization", "/youtube-monetization-services"],
+                                        ["Email Marketing", "/email-marketing-services"],
+                                        ["Influencer Marketing", "/influencer-marketing-services"],
+                                        ["YouTube Monetization", "/youtube-monetization-services"],
+                                        ["Google Ads (PPC)", "/google-ads-services"]
                                     ].map(([text, link], i) => (
                                         <li key={i}>
                                             <Link href={link} className="text-[14px] 2xl:text-[16px] text-text leading-tight hover:text-secondary">
@@ -117,7 +117,7 @@ export default function Footer() {
                         </p>
                         <ul className="flex divide-x">
                             {
-                                [["Terms and Conditions", "/"], ["Privacy Policy", "/"]].map(([text, link], i) => (
+                                [["Terms and Conditions", "/terms-and-conditions"], ["Privacy Policy", "/privacy-policy"]].map(([text, link], i) => (
                                     <li key={i} className="first:pr-1.5 last:pl-1.5">
                                         <Link href={link} className="text-[14px] 2xl:text-[16px] leading-tight hover:text-secondary">
                                             {text}

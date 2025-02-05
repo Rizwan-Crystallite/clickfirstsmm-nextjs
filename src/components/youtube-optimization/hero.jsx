@@ -26,7 +26,7 @@ export default function Hero() {
                     </div>
                     <div className="flex flex-col sm:flex-row items-center gap-5 justify-center">
                         <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
-                        <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                        <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                     </div>
                 </div>
                 <div className="relative z-10 bottom-[-80px] sm:bottom-[-130px] lg:bottom-[-150px] xl:bottom-[-180px] 2xl:bottom-[-220px]">

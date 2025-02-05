@@ -38,12 +38,12 @@ export default function Content3() {
                             </h2>
                             <div className="text-[14px] sm:text-[16px] text-text leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7">
                                 <p>
-                                    We begin with a thorough understanding of your goals and audience to create a customized email strategy. From crafting compelling content to analyzing performance, we ensure each step is designed to maximize impact and achieve your marketing objectives.
+                                    Most email marketing fails because it’s done without thought, without strategy, and without understanding what actually works. We do things differently.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
                                 <CTA css="!bg-primary hover:!bg-black" theme="secondary" size="large" text="Talk To An Expert" />
-                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                             </div>
                         </div>
                         <div className="grid grid-cols-1 gap-y-5 text-text mt-10 xl:mt-0 md:w-[90%] lg:w-[80%] mx-auto xl:w-full">

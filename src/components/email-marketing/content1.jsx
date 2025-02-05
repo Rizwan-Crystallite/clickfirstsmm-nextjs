@@ -13,22 +13,17 @@ export default function Content1() {
                     <div className="grid xl:grid-cols-2 gap-x-5 items-center">
                         <div>
                             <h2 className="text-[25px] sm:text-[35px] md:text-[40px] lg:text-[45px] xl:text-[42px] 2xl:text-[50px] font-semibold leading-snug mb-5">
-                                <span className="block px-1 sm:px-2 py-1 bg-black text-white w-max">What Is Email Marketing?</span>
+                                <span className="block px-1 sm:px-2 py-1 bg-primary text-white w-max mb-1">What Is Email Marketing</span>
+                                <span className="bg-black text-white block px-1 sm:px-2 py-1 max-w-[280px] sm:max-w-full sm:w-max text-[16px] leading-relaxed sm:text-[20px]">(And Why It’s a Game-Changer for Businesses)?</span>
                             </h2>
                             <div className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal grid grid-cols-1 gap-y-5 mb-7 text-text">
                                 <p>
-                                    Email marketing involves sending targeted messages to your audience to build relationships, promote products, and drive engagement. It leverages personalized content to connect with subscribers, turning them into loyal customers. By analyzing subscriber behavior and preferences, you can refine your approach and improve outcomes.
-                                </p>
-                                <p>
-                                    Effective email marketing combines strategy, design, and analytics to deliver relevant messages that resonate with your audience. By crafting well-timed and compelling emails, businesses can boost sales, enhance customer retention, and achieve their marketing goals. Regularly reviewing performance metrics helps in optimizing future campaigns for even greater success.
-                                </p>
-                                <p>
-                                    Email marketing is a digital strategy that uses emails to communicate directly with potential and existing customers. It focuses on sending tailored messages to drive actions such as purchases, sign-ups, and engagement, helping businesses nurture leads and foster brand loyalty. This approach ensures that each message is aligned with the recipient’s interests, maximizing the impact and effectiveness of your campaigns.
+                                    Email marketing is one of the most cost-effective and high-impact ways to grow a business. Unlike paid ads that drain your budget or social media where algorithms limit your reach, email gives you direct access to your audience for a fraction of the cost. It allows businesses to send targeted messages to thousands of potential customers at once, nurturing leads, boosting sales, and building long-term relationships. With email, every message lands in a subscriber’s inbox, meaning you’re not just hoping for engagement, you’re creating it. Whether you're launching a product, driving repeat sales, or staying top of mind, email marketing delivers consistent results without the ongoing expense of traditional advertising. If you're looking for a low-cost, high-return marketing channel, email is your most powerful tool.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
                                 <CTA css="!bg-primary hover:!bg-black" theme="secondary" size="large" text="Talk To An Expert" />
-                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                                <CTA css="border-black !text-black hover:bg-secondary hover:border-secondary hover:!text-white" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                             </div>
                         </div>
                         <div>

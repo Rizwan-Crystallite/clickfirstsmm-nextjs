@@ -32,7 +32,7 @@ export default function Hero() {
                     </div>
                     <div className="flex flex-col sm:flex-row items-center gap-5 justify-center">
                         <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Talk To An Expert" />
-                        <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                        <CTA css="bg-black border-black hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                     </div>
                     <Image src={right} priority alt="Click First SMM" className="absolute right-0 -z-20 top-0 animate-bounce-slow opacity-25 xl:opacity-100" />
                 </div>

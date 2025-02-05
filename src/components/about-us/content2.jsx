@@ -21,7 +21,7 @@ export default function Content2() {
                     <Image src={one} alt="Click First SMM" className="inline-block mx-auto" />
                     <div className="flex flex-col sm:flex-row items-center gap-5 justify-center mt-[50px]">
                         <CTA css="hover:bg-primary" theme="secondary" size="large" text="Talk To An Expert" />
-                        <CTA css="!text-black !border-black hover:bg-black hover:!text-white" theme="transparent" size="large" text="Call Now: 346-299-2202" />
+                        <CTA css="!text-black !border-black hover:bg-black hover:!text-white" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
                     </div>
                 </div>
             </div>
